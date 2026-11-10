@@ -11,7 +11,7 @@ const createWindow = () => {
 		height: 600,
 		// fullscreen: true,
 		icon: path.join(__dirname, 'icon.png'),
-		// autoHideMenuBar: true
+		// autoHideMenuBar: true 
 		webPreferences: {
 			preload: path.join(__dirname, 'preload.js')
 		}
